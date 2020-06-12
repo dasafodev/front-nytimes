@@ -1,37 +1,76 @@
-body{
-    margin: 0;
-    padding: 0;
+body {
+  margin: auto;
+  padding: 0;
+  max-width: 1024px;
+}
+h1 {
+  font-size: 60px;
+}
+h2 {
+  font-size: 20px;
+}
+h3 {
+  font-size: 18px;
+}
+h4 {
+  font-size: 16px;
+}
+h5 {
+  font-size: 14px;
+  font-weight: 400;
 }
 
-.title{
-    font-size: 32px;
-    text-align: center;
-    border-bottom: 2px solid black;
+p {
+  font-size: 12px;
+  text-align: justify;
+  margin-top: 8px;
 }
-.title__text{
-    margin:0 ;
+.title {
+  text-align: center;
+  border-bottom: 2px solid black;
 }
-
-.subtitle{
-    border-bottom: 2px solid black;
-}
-
-.subtitle__text{
-    margin: 0 0 1em 0;
+.title__text {
+  margin: 0;
 }
 
-.container{
-    display: grid;
-    grid-template-columns: 0.2fr auto 0.2fr;
-    margin-top: 5px;
-}
-.container__section--center{
-    border-right: 2px solid black;
-    border-left: 2px solid black;
+.subtitle {
+  border-bottom: 2px solid black;
 }
 
-.section__title{
-    padding: 0 5px 0 5px;
-    margin: 0;
-    text-align: center;
+.subtitle__text {
+  margin: 0 0 1em 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 0.2fr 1fr 0.2fr;
+  margin-top: 5px;
+}
+.container__section--center {
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+}
+.container__section {
+  text-align: center;
+  padding: 0 5px 0 5px;
+}
+.section__title {
+  margin: 0;
+}
+.separator {
+  margin: 10px auto 10px auto;
+  padding: 0;
+  width: 80px;
+  border-top: 2px solid black;
+}
+.separator--empty {
+  border-top: 2px solid black;
+  margin: 0;
+}
+.container__section h4,
+h5 {
+  margin: 0;
+}
+.section--image {
+  max-width: 100%;
 }
