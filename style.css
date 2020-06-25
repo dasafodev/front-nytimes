@@ -34,7 +34,23 @@ h5 {
 }
 p {
   font-size: 12px;
+}
 
+hr{
+  height: 2px;
+  background-color: black;
+  border: none;
+}
+.separator-centered{
+  width: 50%;
+}
+.separator-float{
+  width: 50%;
+  margin-top: 0;
+}
+.separator-full{
+  width:90% ;
+  margin-top: 0;
 }
 
 .margin--top__1 {
