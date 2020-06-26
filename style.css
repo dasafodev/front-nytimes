@@ -41,6 +41,10 @@ hr{
   background-color: black;
   border: none;
 }
+ul{
+  list-style-type: none;
+  padding: 0;
+}
 .separator-centered{
   width: 50%;
 }
