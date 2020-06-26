@@ -105,24 +105,6 @@ ul{
 .image__full {
   width: 100%;
 }
-.separator {
-  margin: var(--spacing2) auto var(--spacing2) auto;
-  padding: 0;
-  width: 80px;
-  border-top: var(--border);
-}
-.separator__float {
-  margin: 0 auto 0 auto;
-  padding: 0;
-  width: 80px;
-  border-top: var(--border);
-}
-.separator__full {
-  margin: 0 auto;
-  padding: 0;
-  width: 90%;
-  border-top: var(--border);
-}
 
 .border--bottom {
   border-bottom: var(--border);
@@ -144,10 +126,7 @@ ul{
 }
 
 .text__float{
-  /* shape-outside: inset(65% 0px 20% 0px); */
   width: 100px;
-  /* height: 100px; */
   text-align: center;
-  /* padding-top: 60%; */
   float:  left;
 }
